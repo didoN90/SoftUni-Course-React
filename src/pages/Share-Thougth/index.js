@@ -2,7 +2,7 @@ import React from 'react'
 import PageLayout from '../../components/page-layout'
 import styles from './index.module.css'
 import Title from '../../components/title/index'
-import Origamis from '../../components/Origamis/index'
+import Origamis from '../../components/origamis/index'
 import SubmitButton from '../../components/button/submit-button'
 
 const ShareTougth = () => {
@@ -10,7 +10,7 @@ const ShareTougth = () => {
         <PageLayout>
             <Title title='Share your tougths'/>
             <div className={styles.container}>
-                <textarea className={styles.textarea}> Publication... </textarea>
+                <textarea className={styles.textarea} defaultValue="Publication..." />
             </div>
             <div>
                 <SubmitButton title="Submit"></SubmitButton>
